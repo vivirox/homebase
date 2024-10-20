@@ -1,1 +1,1 @@
-Sitemap: https://landing-pad.cosmicthemes.com/sitemap-index.xml
+Sitemap: https://landingpad.cosmicthemes.com/sitemap-index.xml
