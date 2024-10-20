@@ -2,7 +2,7 @@
 
 This is a free theme for Astro created by [Cosmic Themes](https://cosmicthemes.com/). It is a great place to house links to your various projects and socials.
 
-[Landing Pad demo](https://landingpad.cosmicthemes.com/)
+[website demo](https://landingpad.cosmicthemes.com/)
 
 ## Quickstart
 
