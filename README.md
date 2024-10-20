@@ -26,7 +26,6 @@ View the demo [here](https://landing-pad.cosmicthemes.com/).
 
 - See my blog post on [recommended Astro web development setup](https://cosmicthemes.com/blog/astro-web-development-setup/).
 - You can learn more information from the [theme docs](https://cosmicthemes.com/docs/) pages.
-- [License details](https://cosmicthemes.com/license/)
 
 ## License
 
