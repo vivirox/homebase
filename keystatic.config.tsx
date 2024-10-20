@@ -100,6 +100,7 @@ export default config({
     socials: collection({
       label: "Socials",
       path: `src/content/socials/*`,
+      columns: ["order"],
       slugField: "title",
       schema: {
         title: fields.slug({
@@ -159,6 +160,7 @@ export default config({
     links: collection({
       label: "Links",
       path: `src/content/links/*`,
+      columns: ["order"],
       slugField: "title",
       schema: {
         title: fields.slug({
