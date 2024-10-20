@@ -2,18 +2,19 @@
 
 This is a free theme for Astro created by [Cosmic Themes](https://cosmicthemes.com/). It is a great place to house links to your various projects and socials.
 
-View the demo [here](https://landing-pad.cosmicthemes.com/).
+[Landing Pad demo](https://landingpad.cosmicthemes.com/)
 
 ## Quickstart
 
-1. Install all necessary packages with `npm install`
-2. Run `npm run dev` to start the dev server
+1. Fork this project to your own repository, and clone it to your local machine
+2. Install all necessary packages with `npm install`
+3. Run `npm run dev` to start the dev server
    - By default, it will be available at `localhost:4321`
-3. Edit the content either with Keystatic CMS at `localhost:4321/admin` or by editing the markdown files in `src/content/`
+4. Edit the content either with Keystatic CMS at `localhost:4321/admin` or by editing the markdown files in `src/content/`
    - There's also an "Admin Dashboard" button you'll see in the demo that will take you to the CMS editor
-4. Update the colors if desired in `tailwind.config.cjs`, or any other code to adjust the looks
-5. Update the site URL in `astro.config.mjs` and `/public/robots.txt` to match your domain
-6. After you're happy upload the project to github, and [deploy to Netlify, Vercel, Cloudflare](https://cosmicthemes.com/deployment/), or other provider of your choice
+5. Update the colors if desired in `tailwind.config.cjs`, or any other code to adjust the looks
+6. Update the site URL in `astro.config.mjs` and `/public/robots.txt` to match your domain
+7. After you're happy, update your changes to your repo and [deploy to Netlify, Vercel, Cloudflare](https://cosmicthemes.com/deployment/), or other provider of your choice
 
 ## Features
 
@@ -41,7 +42,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory. I also frequently use `src/assets` for images when using Astro asssets for image optimization.
 
-### 🧞 Commands
+### Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -54,6 +55,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-### 👀 Want to learn more?
+### Want to learn more?
 
 Feel free to check out the [Astro documentation](https://docs.astro.build).
