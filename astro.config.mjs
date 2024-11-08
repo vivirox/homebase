@@ -5,13 +5,14 @@ import netlify from "@astrojs/netlify";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import compress from "@playform/compress";
+import vercel from '@astrojs/vercel/serverless';
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://landingpad.cosmicthemes.com/",
-  output: "hybrid",
-  adapter: netlify({
-    imageCDN: false,
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: { enabled: true }
   }),
   redirects: {
     "/admin": "/keystatic",
