@@ -1,8 +1,8 @@
 ---
-name: Web Reaper
+name: Gem City XYZ
 theme: dark
 blur: blur
-avatar: ./avatar.jpg
-background: ./background.jpg
+avatar: ./avatar.png
+background: ./background.png
 ---
-Web designer / developer | Crafting professional website templates at cosmicthemes.com - Made with Astro and Tailwind CSS
+Spiral out. Keep going.
