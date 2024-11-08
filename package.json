@@ -31,5 +31,8 @@
     "@playform/compress": "^0.1.4",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.8"
-  }
+  },
+  "trustedDependencies": [
+    "@parcel/watcher"
+  ]
 }
