@@ -21,6 +21,7 @@ const socialsCollection = defineCollection({
     icon: z.enum([
       "github",
       "twitter",
+      "bluesky",
       "mastodon",
       "linkedin",
       "instagram",
