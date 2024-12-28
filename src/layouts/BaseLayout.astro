@@ -1,5 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
+import Analytics from "@vercel/analytics/astro";
 
 // component imports
 import BaseHead from "@layouts/BaseHead.astro";
@@ -39,6 +40,7 @@ const { title, description, image, noindex = false } = Astro.props as Props;
     class="min-h-[100lvh] bg-base-50 text-base-800 dark:bg-base-950 dark:text-base-200"
   >
     <main>
+      <Analytics />
       <slot />
     </main>
   </body>
