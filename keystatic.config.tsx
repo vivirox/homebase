@@ -125,6 +125,7 @@ export default config({
           options: [
             { label: "Github", value: "github" },
             { label: "Twitter", value: "twitter" },
+            { label: "Bluesky", value: "bluesky" },
             { label: "Mastodon", value: "mastodon" },
             { label: "LinkedIn", value: "linkedin" },
             { label: "Instagram", value: "instagram" },
